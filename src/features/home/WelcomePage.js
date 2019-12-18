@@ -44,6 +44,16 @@ export default function WelcomePage(props) {
         >
           Go to /examples
         </Button>
+        <br />
+        <br />
+        <a className="fd-link" href="https://sap.github.io/fundamental-styles/getting-started.html">
+          Fundamental Styles v0.3.0
+        </a>
+        <br />
+        <br />
+        <a className="fd-link" href="https://sap.github.io/fundamental-react/home">
+          Fundamental React v0.7.1
+        </a>
       </div>
     </div>
   );
