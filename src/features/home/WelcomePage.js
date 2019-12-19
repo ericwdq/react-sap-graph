@@ -8,7 +8,7 @@ export default function WelcomePage(props) {
       <header className="app-header">
         <img src={require('../../images/sap-logo.svg')} className="sap-logo" alt="logo" />
         <h1 className="app-title">
-          Welcome to React and SAP Graph {'  '}
+          Welcome to React and SAP Graph App {'  '}
           <a href="https://www.graph.sap" rel="nofollow" target="_blank">
             graph.sap
           </a>
@@ -18,7 +18,7 @@ export default function WelcomePage(props) {
         <h3>To get started:</h3>
         <ul>
           <li>
-            Edit component <code>src/features/home/DefaultPage.js</code> for this page.
+            Edit component <code>src/features/home/WelcomePage.js</code> for this page.
           </li>
           <li>
             Edit component <code>src/features/home/App.js</code> for the root container layout.
