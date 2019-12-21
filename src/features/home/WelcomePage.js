@@ -9,7 +9,7 @@ export default function WelcomePage(props) {
         <img src={require('../../images/sap-logo.svg')} className="sap-logo" alt="logo" />
         <h1 className="app-title">
           Welcome to React and SAP Graph App {'  '}
-          <a href="https://www.graph.sap" rel="nofollow" target="_blank">
+          <a href="https://www.graph.sap" rel="noopener noreferrer" target="_blank">
             graph.sap
           </a>
         </h1>
@@ -42,16 +42,26 @@ export default function WelcomePage(props) {
             props.history.push(`/examples`);
           }}
         >
-          Go to /examples
+          Go to examples
         </Button>
         <br />
         <br />
-        <a className="fd-link" href="https://sap.github.io/fundamental-styles/getting-started.html">
+        <a
+          className="fd-link"
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://sap.github.io/fundamental-styles/getting-started.html"
+        >
           Fundamental Styles v0.3.0
         </a>
         <br />
         <br />
-        <a className="fd-link" href="https://sap.github.io/fundamental-react/home">
+        <a
+          className="fd-link"
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://sap.github.io/fundamental-react/home"
+        >
           Fundamental React v0.7.1
         </a>
       </div>
