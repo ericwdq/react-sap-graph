@@ -38,11 +38,23 @@ export default function WelcomePage(props) {
         </Alert>
         <Button
           option="emphasized"
-          onClick={() => {
+          onClick={evt => {
+            evt.preventDefault();
             props.history.push(`/examples`);
           }}
         >
           Go to examples
+        </Button>
+        <br />
+        <br />
+        <Button
+          option="emphasized"
+          onClick={evt => {
+            evt.preventDefault();
+            props.history.push(`/dkom/sap-graph`);
+          }}
+        >
+          Go to DKOM SAP Graph
         </Button>
         <br />
         <br />
