@@ -58,14 +58,14 @@ export default function WelcomePage(props) {
         </Button>
         <br />
         <br />
-        <h2 className="fd-action-bar__title">Renference Links:</h2>
+        <h2 className="fd-action-bar__title">Renference:</h2>
         <a
           className="fd-link"
           target="_blank"
           rel="noopener noreferrer"
           href="https://sap.github.io/fundamental-styles/getting-started.html"
         >
-          Fundamental Styles v0.3.0
+          🔗 Fundamental Styles v0.3.0
         </a>
         <br />
         <br />
@@ -75,7 +75,7 @@ export default function WelcomePage(props) {
           rel="noopener noreferrer"
           href="https://sap.github.io/fundamental-react/home"
         >
-          Fundamental React v0.7.1
+          🔗 Fundamental React v0.7.1
         </a>
       </div>
     </div>
