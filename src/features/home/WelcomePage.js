@@ -108,12 +108,16 @@ export default function WelcomePage(props) {
         {list && list && list.length > 0 ? (
           <ul className="listview" list="list">
             {list.map(item => (
-              <li key={item.ID}>{item.name}</li>
+              <li key={item.ID}>
+                {item.ID} - {item.name}
+              </li>
             ))}
           </ul>
         ) : (
           <div className="no-items-tip">No items yet.</div>
         )}
+        <br />
+        <br />
       </div>
     </div>
   );
